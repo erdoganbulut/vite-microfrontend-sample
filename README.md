@@ -1,6 +1,6 @@
 # React in Vue - Module Federation Demo
 
-This example demos consumption of federated modules from a vite bundle. `layout` app (vue based) depends on a component exposed by `header` app (react based). It is a simple proof of concept using `ReactDOMServer.renderToString` to inject data a html string into a vue template.
+This example demos consumption of federated modules from a vite bundle. `layout` app (vue based) depends on a component exposed by `header` app (typescript react based). It is a simple proof of concept using `ReactDOMServer.renderToString` to inject data a html string into a vue template.
 
 ## Running Demo
 
