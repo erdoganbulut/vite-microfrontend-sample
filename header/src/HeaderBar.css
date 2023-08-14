@@ -1,0 +1,25 @@
+header {
+  background: #fc0;
+}
+
+header .header-columns,
+header .header-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header-content {
+  padding: 0 0.5rem;
+}
+
+header .header-content a,
+header .header-content form {
+  padding: 0 0.5rem;
+}
+.header-content form > input,
+.header-content form > label,
+.header-content form > button {
+  margin: 0 0.5rem;
+}
